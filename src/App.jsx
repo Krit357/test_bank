@@ -1,5 +1,5 @@
 import "./App.css";
-import FixedHomePage from "./components/FixedHomePage";
+import FixedHomePage from "./assets/Page/FixedHomePage";
 import StandardPage from "./components/StandardPage";
 
 function App() {

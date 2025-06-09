@@ -1,0 +1,264 @@
+.desktop-svg {
+  position: relative;
+  display: block;
+}
+.mobile-svg {
+  display: none;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.homepage-first-column {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 100px;
+  height: 60vh;
+}
+
+.homepage-first-column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  gap: 10px;
+}
+
+.homepage-first-column-left > h1 {
+  font-size: 48px;
+  gap: 10px;
+  text-align: start;
+}
+
+.homepage-first-column-left > p {
+  text-align: start;
+}
+
+.homepage-first-column-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 225px;
+  z-index: 5;
+}
+.image-mockup {
+  position: absolute;
+  height: 780px;
+  z-index: 10;
+  top: -100px;
+  right: 30px;
+}
+
+.second-column {
+  text-align: start;
+  padding: 50px 100px;
+  background-color: var(--very-light-gray);
+}
+
+.second-column-left {
+  line-height: 30px;
+}
+
+.second-column-left > h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--dark-blue);
+  font-weight: 300;
+}
+
+.second-column-left > p {
+  color: var(--grayish-blue);
+}
+
+.homepage-second-column {
+  padding: 50px 0 0 0;
+  margin: 0 80px 0 0;
+  gap: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.homepage-second-column > h3 {
+  font-size: x-large;
+  font-weight: 500;
+  margin: 20px 0;
+  color: var(--dark-blue);
+}
+
+.homepage-second-column > p {
+  font-size: 16px;
+  color: var(--grayish-blue);
+}
+
+.second-column-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-column {
+  padding: 10px 100px;
+  background-color: var(--very-light-gray);
+}
+
+.third-column > h2 {
+  margin: 50px 0;
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+.third-column-all-post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.third-column-post {
+  height: 450px;
+  width: 300px;
+  margin: 10px 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.third-column-image {
+  height: 250px;
+}
+
+.third-column-text-box {
+  padding: 20px 30px;
+}
+
+.third-column-article {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+}
+
+.third-column-article-post {
+  font-size: 12px;
+  color: var(--grayish-blue);
+}
+
+.third-column-header {
+  margin: 10px 0;
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+
+.third-column-information {
+  font-size: 14px;
+  color: var(--grayish-blue);
+}
+
+.icon {
+  background: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 845px) {
+  .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homepage-first-column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 500px;
+    left: -150px;
+    height: 40vh;
+  }
+
+  .homepage-first-column-left {
+    position: relative;
+    left: 150px;
+    top: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 500px;
+  }
+
+  .homepage-first-column-left > p {
+    text-align: center;
+  }
+
+  .desktop-svg {
+    top: 220px;
+    left: 130px;
+  }
+
+  .image-mockup {
+    position: absolute;
+    height: 600px;
+    top: 210px;
+    right: 80px;
+    z-index: 10;
+    overflow-x: hidden;
+  }
+
+  .fill-path {
+    position: relative;
+    top: 50px;
+  }
+
+  .mobile-svg {
+    display: none;
+  }
+
+  .homepage-first-column-right {
+    top: -900px;
+    left: 75px;
+  }
+
+  .homepage-second-column {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+
+  .second-column {
+    margin-top: 400px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .second-column-left {
+    justify-content: center;
+  }
+
+  .second-column-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .third-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .third-column-all-post {
+    flex-direction: column;
+  }
+
+  .third-column-post {
+    width: 400px;
+  }
+}
