@@ -1,13 +1,11 @@
 import "./App.css";
-import FixedHomePage from "./components/FixedHomePage";
-import StandardPage from "./components/StandardPage";
+// import FixedHomePage from "./components/FixedHomePage";
+// import StandardPage from "./components/StandardPage";
 
 function App() {
   return (
     <div>
-      <StandardPage>
-        <FixedHomePage />
-      </StandardPage>
+      <p>test</p>
     </div>
   );
 }
